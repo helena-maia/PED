@@ -1,6 +1,6 @@
 inputs="dados/"
 solucao="sols/lab07.py"
-avaliado="182323/lab07.py"
+avaliado="lab07.py"
 outputs="saidas/"
 
 for i in $(ls $inputs); do 
