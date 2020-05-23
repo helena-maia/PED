@@ -3,6 +3,8 @@ solucao="sols/lab07.py"
 avaliado="lab07.py"
 outputs="saidas/"
 
+mkdir -p $outputs
+
 for i in $(ls $inputs); do 
     nome=$(echo $i | cut -d "." -f 1)
     python3 $solucao < $inputs$nome".in" > $outputs$nome".res"
